@@ -2,6 +2,8 @@
 <html>
     <head>
         <title>My first page</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="game.js"></script>
         <script src="index.js"></script>
     </head>
     <body>
@@ -13,8 +15,8 @@
         </div>
         <div>
             <input id="txtLetter" type="text" maxlength="1" style="width: 20px;">
-            <button id="btnGuess" onclick="guessClick()" >Guess</button>
-            <button id="btnRestart">Restart</button>
+            <button id="btnGuess" onclick="guessClick()">Guess</button>
+            <button id="btnRestart" onclick="restartClick()">Restart</button>
         </div>
     </body>
 </html>
