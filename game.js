@@ -78,4 +78,8 @@ class Game {
     get retryCount() {
         return this._retryCount;
     }
+
+    get name() {
+        return this.nameToGuess;
+    }
 }
